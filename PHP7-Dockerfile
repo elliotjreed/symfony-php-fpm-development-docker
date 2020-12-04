@@ -1,4 +1,4 @@
-FROM elliotjreed/symfony-php-fpm-docker:latest
+FROM elliotjreed/symfony-php-fpm-docker:php7
 
 LABEL Description="PHP FPM Docker image with OPCache, APCu, Intl., PDO MySQL, MBString, and Yaml extensions. Used for development or building Symfony / Laravel applications." Vendor="Elliot J. Reed" Version="1.0"
 
