@@ -1,4 +1,4 @@
-FROM elliotjreed/symfony-php-fpm-docker:latest
+FROM elliotjreed/symfony-php-fpm-docker:8.3
 
 ENV TZ='Europe/London'
 
