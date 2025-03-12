@@ -1,6 +1,6 @@
-FROM elliotjreed/symfony-php-fpm-docker:latest
+FROM elliotjreed/symfony-php-fpm-docker:8.3
 
-ENV XDEBUG_VERSION="3.3.1"
+ENV XDEBUG_VERSION="3.4.2"
 ENV TZ='Europe/London'
 
 LABEL Description="PHP FPM Docker image with OPCache, APCu, Intl., PDO MySQL, MBString, and Yaml extensions, with XDebug. Used for development or building Symfony / Laravel applications." Vendor="Elliot J. Reed" Version="3.0"
